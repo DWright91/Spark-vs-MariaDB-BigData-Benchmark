@@ -20,9 +20,6 @@ conf = (SparkConf().setMaster("local")
 sc = SparkContext(conf = conf)
 
 # read in the file
-# filename = "D:\wikipedia-dataset\enwiki-20230101-pages-meta-history1.xml-p1p857"
-# filename = "input.txt"
-# filename = "enwiki-20230101-pages-meta-history1.xml-p1p857"
 filename = "wikipedia-subset.xml"
 text_file = sc.textFile(filename)
 
