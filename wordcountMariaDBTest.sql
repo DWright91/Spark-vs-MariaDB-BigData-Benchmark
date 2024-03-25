@@ -20,8 +20,6 @@ SELECT
 -- Load words from input.txt into a table called "words".
 CREATE TABLE words (word varchar(20));
 
--- LOAD DATA LOCAL INFILE './../../wikipedia-dataset/test.xml'
--- LOAD DATA LOCAL INFILE './../../wikipedia-dataset/enwiki-20230101-pages-meta-history1.xml-p1p857'
 LOAD DATA LOCAL INFILE './../../wikipedia-dataset/wikipedia-subset.xml'
 INTO TABLE words
 LINES TERMINATED BY ' ';
