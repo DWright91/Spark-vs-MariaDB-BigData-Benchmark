@@ -1,7 +1,5 @@
 --------------------------------------------------------------------------------
 -- wordcountMariaDBTest.sql                                                   --
--- SE 413 Project1                                                            --
--- Created by Dalton, Sivty, and Winston                                      --
 --------------------------------------------------------------------------------
 
 -- Open MariaDB and enter your password
